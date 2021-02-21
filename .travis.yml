@@ -20,7 +20,7 @@ jobs:
     - stage: test app
       if: type IN (push) and branch = master
       script:
-        - python3 $LOG_PATH/main.py
+        - python3 main.py
 
 after_success:
   - sh .travis/deploy_dockerhub.sh
