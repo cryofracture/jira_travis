@@ -8,5 +8,6 @@ COPY .env /src
 # COPY buzz /src/buzz
 # CMD python /src/app.py
 #COPY mainapp /src
-COPY weblog.csv /src
+COPY weblog.csv /src/weblog.csv
+WORKDIR /src/
 CMD python /src/main.py

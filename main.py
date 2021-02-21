@@ -22,7 +22,8 @@ jira = Jira(
 #print(url)
 #print(jira.password)
 #print(jira.username)
-logfile = os.environ['LOG_PATH'] + "/" + "weblog.csv"
+# logfile = os.environ['LOG_PATH'] + "/" + "weblog.csv"
+logfile = "weblog.csv"
 from itertools import islice
 with open(logfile, 'r', newline='') as logfile:
     number_of_issues = 10
