@@ -7,11 +7,11 @@ services:
     - docker
 
 # Install dependencies
-before_install:
-  - pip install --upgrade pip
-install:
+#before_install:
+  #- pip install --upgrade pip
+#install:
   #- pip install pytest==3.0.6
-  - pip install -r requirements.txt
+  #- pip install -r requirements.txt
 
 # Terraform Plan and Apply
 # Plan only on pull requests, Apply on merged code
