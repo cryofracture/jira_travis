@@ -1,0 +1,13 @@
+.env
+*.idea
+venv/
+__pycache__
+db.sqlite3
+node_modules
+.terraform/*
+*.tfvars
+*.tfstate
+*.tfplan
+mainapp/
+newweblog.csv
+badcodes.csv

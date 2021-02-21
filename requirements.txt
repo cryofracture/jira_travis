@@ -1,0 +1,16 @@
+atlassian-python-api
+certifi
+chardet
+Deprecated
+idna
+numpy
+oauthlib
+pandas
+python-dateutil
+python-dotenv
+pytz
+requests
+requests-oauthlib
+six
+urllib3
+wrapt
